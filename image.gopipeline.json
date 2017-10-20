@@ -1,0 +1,11 @@
+{
+  "name": "application_aio_server",
+  "environment_variables": [],
+  "group" : "image-gp",
+  "materials": [
+    {
+      "url": "https://github.com/RameshBahavathi/gocd-demo-config-repo-code",
+      "type": "git"
+    }
+  ]
+}
