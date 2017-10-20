@@ -7,5 +7,36 @@
       "url": "https://github.com/RameshBahavathi/gocd-demo-config-repo-code",
       "type": "git"
     }
+  ],
+  "stages": [
+    {
+      "name": "build",
+      "fetch_materials": true,
+      "never_cleanup_artifacts": false,
+      "clean_working_directory": false,
+      "environment_variables": [],
+      "jobs": [
+        {
+          "name": "build",
+          "environment_variables": [],
+          "tabs": [],
+          "resources": [],
+          "artifacts": [],
+          "properties": [],
+          "run_instance_count": null,
+          "timeout": 0,
+          "tasks": [
+            {
+              "type": "exec",
+              "run_if": "passed",
+              "on_cancel" : null,
+              "command": "./build.sh",
+              "arguments": [],
+              "working_directory": null
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
