@@ -1,7 +1,7 @@
 {
-  "name": "application_aio_server_1",
+  "name": "application_aio_server",
   "environment_variables": [],
-  "group" : "image-gp-1",
+  "group" : "image-gp-2",
   "materials": [
     {
       "url": "https://github.com/RameshBahavathi/gocd-demo-config-repo-code",
